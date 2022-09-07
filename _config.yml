@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Fred's Website # the website title (if blank, full name will be used instead)
+title: Fred's # the website title (if blank, full name will be used instead)
 first_name: Fred
 middle_name:
 last_name: Ramos
