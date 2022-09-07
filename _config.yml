@@ -72,7 +72,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-acm_id: # your dl.acm.org/profile/id
+github_username: frediramos # frediramos
+gitlab_username: # your GitLab user name
+twitter_username: # your Twitter handle
+linkedin_username: # your LinkedIn user name
+scholar_userid: # your Google Scholar ID
+orcid_id: 0000-0002-1689-9650 # your ORCID ID
+medium_username: # your Medium username
+quora_username: # your Quora username
+publons_id: # your ID on Publons
+research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
 dblp_url: # your DBLP profile url
@@ -192,11 +201,11 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  #news:
-  #  defaults:
-  #    layout: post
-  #  output: true
-  #  permalink: /news/:path/
+  news:
+    defaults:
+      layout: post
+    output: false
+    permalink: /news/:path/
   projects:
     output: true
     permalink: /:collection/:title/
@@ -315,8 +324,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+
+  last_name: Ramos
+  first_name: [Frederico, D.]
 
   style: apa
   locale: en
