@@ -2,11 +2,15 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+<h2 style="margin-left:40px">Fall Semester 2022</h2>
+
+<ul>
+	<li style="margin-left: 80px;"><span style="font-size:20px">Forensics Cyber-Security</span>, Teaching Assitant</li>
+</ul>
+
