@@ -2,7 +2,10 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
+  PhD Student at Instituto Superior Técnico<br> 
+  Researcher at INESC-ID
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right  
@@ -11,6 +14,7 @@ profile:
   address: >
     <p>INESC-ID</p>
     <p>Lisbon, Portugal</p>
+    <a href="/assets/pdf/example_pdf.pdf">Curriculum Vitae</a>
 
 
 news: false  # includes a list of news items
