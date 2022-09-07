@@ -14,7 +14,7 @@ profile:
   address: >
     <p>INESC-ID</p>
     <p>Lisbon, Portugal</p>
-    <a href="/assets/pdf/example_pdf.pdf">Curriculum Vitae</a>
+    <a href="/assets/pdf/cv.pdf">Curriculum Vitae</a>
 
 
 news: false  # includes a list of news items
