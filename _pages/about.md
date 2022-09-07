@@ -12,7 +12,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>INESC-ID</p>
+    <p>IST & INESC-ID</p>
     <p>Lisbon, Portugal</p>
     <a href="/assets/pdf/cv.pdf">Curriculum Vitae</a>
 
