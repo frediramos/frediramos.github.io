@@ -1,6 +1,82 @@
 ---
 ---
 
+
+@mastersthesis{MSc,
+  abbr     = {Master Thesis},
+  title    = {Toward Tool-Independent Summaries for Symbolic Execution},
+  author   = {Frederico Duarte Ramos},
+  abstract = {Symbolic execution is a program analysis technique that has been successfully used to find various
+              types of bugs in industrial codebases. Despite being extensively used in practice, this technique suffers
+              from two main limitations when applied to real-world code: path explosion and interactions with the
+              runtime environment. To address both of these problems, current symbolic execution engines make use
+              of symbolic summaries. These interact with the symbolic state of a given program so as to simulate the
+              behaviour of both external and internal functions without having to symbolically execute them. Symbolic
+              summaries can therefore be used to mitigate the number of paths explored and also allow for the analysis
+              of external calls. Despite their advantages, there is a clear lack of mechanisms for sharing symbolic
+              summaries across different tools and for their uniform validation.
+              In this thesis we introduce a methodology for implementing tool-independent symbolic summaries for
+              the C programming language. This methodology consists of an API containing a set of symbolic reflec-
+              tion primitives for explicit manipulation of C symbolic states. Symbolic summaries implemented using
+              our API can be shared across different symbolic execution tools, provided that these tools implement
+              the proposed API. Additionally, due to being written directly in C, these summaries can themselves be
+              symbolically executed as standard C code. Hence, we also introduce a summary validation tool that can
+              systematically evaluate the correctness of a symbolic summary with respect to its concrete reference
+              implementation.},
+  year     = {2021},
+  month    = {November},
+  url      = {https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710},
+  html     = {https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710},
+  pdf      = {thesis.pdf}
+}
+
+@article{summaries,
+  author    = {Frederico Ramos and
+               Nuno Sabino and
+               Pedro Ad{\~{a}}o and
+               David A. Naumann and
+               Jos{\'{e}} Fragoso Santos},
+  title     = {Toward Tool-Independent Summaries for Symbolic Execution (Artifact)},
+  journal   = {Dagstuhl Artifacts Ser.},
+  volume    = {9},
+  number    = {2},
+  pages     = {07:1--07:4},
+  year      = {2023},
+  url       = {https://doi.org/10.4230/DARTS.9.2.7},
+  doi       = {10.4230/DARTS.9.2.7},
+  timestamp = {Tue, 11 Jul 2023 17:14:10 +0200},
+  biburl    = {https://dblp.org/rec/journals/darts/RamosSANS23.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  selected  = {true}
+}
+
+@inproceedings{metadata262,
+  author    = {Frederico Ramos and
+               Diogo Costa Reis and
+               Miguel Trigo and
+               Ant{\'{o}}nio Morgado and
+               Jos{\'{e}} Fragoso Santos},
+  editor    = {Ren{\'{e}} Just and
+               Gordon Fraser},
+  title     = {MetaData262: Automatic Test Suite Selection for Partial JavaScript
+               Implementations},
+  booktitle = {Proceedings of the 32nd {ACM} {SIGSOFT} International Symposium on
+               Software Testing and Analysis, {ISSTA} 2023, Seattle, WA, USA, July
+               17-21, 2023},
+  pages     = {1499--1502},
+  publisher = {{ACM}},
+  year      = {2023},
+  url       = {https://doi.org/10.1145/3597926.3604923},
+  doi       = {10.1145/3597926.3604923},
+  timestamp = {Mon, 17 Jul 2023 12:40:11 +0200},
+  biburl    = {https://dblp.org/rec/conf/issta/RamosRT0S23.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  selected  = {true}
+}
+
+---
+---
+
 @string{aps = {American Physical Society,}}
 
 @book{einstein1920relativity,
@@ -32,89 +108,6 @@
   year        = {1950},
   publisher   = {American Association of Physics Teachers}
 }
-
-@mastersthesis{PhysRev.47.777,
-  abbr     = {Master Thesis},
-  title    = {Toward Tool-Independent Summaries for Symbolic Execution},
-  author   = {Frederico Duarte Ramos},
-  abstract = {Symbolic execution is a program analysis technique that has been successfully used to find various
-              types of bugs in industrial codebases. Despite being extensively used in practice, this technique suffers
-              from two main limitations when applied to real-world code: path explosion and interactions with the
-              runtime environment. To address both of these problems, current symbolic execution engines make use
-              of symbolic summaries. These interact with the symbolic state of a given program so as to simulate the
-              behaviour of both external and internal functions without having to symbolically execute them. Symbolic
-              summaries can therefore be used to mitigate the number of paths explored and also allow for the analysis
-              of external calls. Despite their advantages, there is a clear lack of mechanisms for sharing symbolic
-              summaries across different tools and for their uniform validation.
-              In this thesis we introduce a methodology for implementing tool-independent symbolic summaries for
-              the C programming language. This methodology consists of an API containing a set of symbolic reflec-
-              tion primitives for explicit manipulation of C symbolic states. Symbolic summaries implemented using
-              our API can be shared across different symbolic execution tools, provided that these tools implement
-              the proposed API. Additionally, due to being written directly in C, these summaries can themselves be
-              symbolically executed as standard C code. Hence, we also introduce a summary validation tool that can
-              systematically evaluate the correctness of a symbolic summary with respect to its concrete reference
-              implementation.},
-  year     = {2021},
-  month    = {November},
-  url      = {https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710},
-  html     = {https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710},
-  pdf      = {thesis.pdf},
-  selected = {true}
-}
-
-
-
-
-@article{summaries,
-  author       = {Frederico Ramos and
-                  Nuno Sabino and
-                  Pedro Ad{\~{a}}o and
-                  David A. Naumann and
-                  Jos{\'{e}} Fragoso Santos},
-  title        = {Toward Tool-Independent Summaries for Symbolic Execution (Artifact)},
-  journal      = {Dagstuhl Artifacts Ser.},
-  volume       = {9},
-  number       = {2},
-  pages        = {07:1--07:4},
-  year         = {2023},
-  url          = {https://doi.org/10.4230/DARTS.9.2.7},
-  doi          = {10.4230/DARTS.9.2.7},
-  timestamp    = {Tue, 11 Jul 2023 17:14:10 +0200},
-  biburl       = {https://dblp.org/rec/journals/darts/RamosSANS23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-
-
-
-
-
-@inproceedings{metadata262,
-  author       = {Frederico Ramos and
-                  Diogo Costa Reis and
-                  Miguel Trigo and
-                  Ant{\'{o}}nio Morgado and
-                  Jos{\'{e}} Fragoso Santos},
-  editor       = {Ren{\'{e}} Just and
-                  Gordon Fraser},
-  title        = {MetaData262: Automatic Test Suite Selection for Partial JavaScript
-                  Implementations},
-  booktitle    = {Proceedings of the 32nd {ACM} {SIGSOFT} International Symposium on
-                  Software Testing and Analysis, {ISSTA} 2023, Seattle, WA, USA, July
-                  17-21, 2023},
-  pages        = {1499--1502},
-  publisher    = {{ACM}},
-  year         = {2023},
-  url          = {https://doi.org/10.1145/3597926.3604923},
-  doi          = {10.1145/3597926.3604923},
-  timestamp    = {Mon, 17 Jul 2023 12:40:11 +0200},
-  biburl       = {https://dblp.org/rec/conf/issta/RamosRT0S23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-
-
-
-
-
 
 @article{einstein1905molekularkinetischen,
   title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
