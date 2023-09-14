@@ -8,11 +8,10 @@ nav_order: 6
 ---
 
 
-<h2 style="margin-left:40px">Fall Semester 2022 - IST</h2>
+<h2 style="margin-left:40px">Fall Semester 2023 - IST</h2>
 
 <ul>
-	<li style="margin-left: 80px;"><span style="font-size:20px">Forensics Cyber-Security-</span> </li>
-	<li style="margin-left: 80px;"><span style="font-size:20px">Operating Systems</span> </li>
+	<li style="margin-left: 80px;"><span style="font-size:20px">Software Specification, Symbolic Execution lab class</span></li>
 </ul>
 
 
@@ -23,8 +22,13 @@ nav_order: 6
 </ul>
 
 
-<h2 style="margin-left:40px">Spring Semester 2023 - IST</h2>
+<h2 style="margin-left:40px">Fall Semester 2022 - IST</h2>
 
 <ul>
-	<li style="margin-left: 80px;"><span style="font-size:20px">Software Specification, Symbolic Execution lab class</span></li>
+	<li style="margin-left: 80px;"><span style="font-size:20px">Forensics Cyber-Security-</span> </li>
+	<li style="margin-left: 80px;"><span style="font-size:20px">Operating Systems</span> </li>
 </ul>
+
+
+
+
