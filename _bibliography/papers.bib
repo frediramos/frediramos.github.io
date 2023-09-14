@@ -2,34 +2,6 @@
 ---
 
 
-@mastersthesis{MSc,
-  abbr     = {Master Thesis},
-  title    = {Toward Tool-Independent Summaries for Symbolic Execution},
-  author   = {Frederico Duarte Ramos},
-  abstract = {Symbolic execution is a program analysis technique that has been successfully used to find various
-              types of bugs in industrial codebases. Despite being extensively used in practice, this technique suffers
-              from two main limitations when applied to real-world code: path explosion and interactions with the
-              runtime environment. To address both of these problems, current symbolic execution engines make use
-              of symbolic summaries. These interact with the symbolic state of a given program so as to simulate the
-              behaviour of both external and internal functions without having to symbolically execute them. Symbolic
-              summaries can therefore be used to mitigate the number of paths explored and also allow for the analysis
-              of external calls. Despite their advantages, there is a clear lack of mechanisms for sharing symbolic
-              summaries across different tools and for their uniform validation.
-              In this thesis we introduce a methodology for implementing tool-independent symbolic summaries for
-              the C programming language. This methodology consists of an API containing a set of symbolic reflec-
-              tion primitives for explicit manipulation of C symbolic states. Symbolic summaries implemented using
-              our API can be shared across different symbolic execution tools, provided that these tools implement
-              the proposed API. Additionally, due to being written directly in C, these summaries can themselves be
-              symbolically executed as standard C code. Hence, we also introduce a summary validation tool that can
-              systematically evaluate the correctness of a symbolic summary with respect to its concrete reference
-              implementation.},
-  year     = {2021},
-  month    = {November},
-  url      = {https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710},
-  html     = {https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710},
-  pdf      = {thesis.pdf},
-  selected = {true}
-}
 
 
 
@@ -88,6 +60,37 @@
   html      = {https://dl.acm.org/doi/10.1145/3597926.3604923},
   selected  = {true}
 }
+
+
+@mastersthesis{MSc,
+  abbr     = {Master Thesis},
+  title    = {Toward Tool-Independent Summaries for Symbolic Execution},
+  author   = {Frederico Duarte Ramos},
+  abstract = {Symbolic execution is a program analysis technique that has been successfully used to find various
+              types of bugs in industrial codebases. Despite being extensively used in practice, this technique suffers
+              from two main limitations when applied to real-world code: path explosion and interactions with the
+              runtime environment. To address both of these problems, current symbolic execution engines make use
+              of symbolic summaries. These interact with the symbolic state of a given program so as to simulate the
+              behaviour of both external and internal functions without having to symbolically execute them. Symbolic
+              summaries can therefore be used to mitigate the number of paths explored and also allow for the analysis
+              of external calls. Despite their advantages, there is a clear lack of mechanisms for sharing symbolic
+              summaries across different tools and for their uniform validation.
+              In this thesis we introduce a methodology for implementing tool-independent symbolic summaries for
+              the C programming language. This methodology consists of an API containing a set of symbolic reflec-
+              tion primitives for explicit manipulation of C symbolic states. Symbolic summaries implemented using
+              our API can be shared across different symbolic execution tools, provided that these tools implement
+              the proposed API. Additionally, due to being written directly in C, these summaries can themselves be
+              symbolically executed as standard C code. Hence, we also introduce a summary validation tool that can
+              systematically evaluate the correctness of a symbolic summary with respect to its concrete reference
+              implementation.},
+  year     = {2021},
+  month    = {November},
+  url      = {https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710},
+  html     = {https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710},
+  pdf      = {thesis.pdf},
+  selected = {true}
+}
+
 
 ---
 ---
