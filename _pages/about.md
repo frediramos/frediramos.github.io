@@ -10,7 +10,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
+  more_info: >
     <p><a href="https://tecnico.ulisboa.pt/en">IST</a> & <a href="https://www.inesc-id.pt">INESC-ID</a></p>
     <p>Lisbon, Portugal</p>
     <a href="/assets/pdf/cv.pdf">Curriculum Vitae</a>
