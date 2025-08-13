@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-title: <a href="/assets/pdf/cv.pdf" style="color: inherit; text-decoration: none;">Frederico Ramos</a> # the website title (if blank, full name will be used instead)
+title: [Frederico Ramos](/assets/pdf/cv.pdf) 
 first_name: Frederico
 middle_name: Duarte
 last_name: Ramos
