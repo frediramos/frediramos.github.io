@@ -7,27 +7,19 @@ nav: true
 nav_order: 6
 ---
 
-<h2 style="margin-left:40px">Fall Semester 2024/25</h2>
+## Fall Semester 2024/25
 
-<ul>
-    <li style="margin-left: 80px;"><span style="font-size:20px">Analysis and Synthesis of Algorithms</span></li>
-</ul>
+- [Analysis and Synthesis of Algorithms](https://fenix.tecnico.ulisboa.pt/disciplinas/ASA11/2024-2025/1-semestre)
 
-<h2 style="margin-left:40px">Fall Semester 2023/24 </h2>
+## Fall Semester 2023/24
 
-<ul>
-    <li style="margin-left: 80px;"><span style="font-size:20px">Software Specification (symbolic execution lab class)</span></li>
-</ul>
+- [Software Specification (Symbolic Execution lab class)](https://fenix.tecnico.ulisboa.pt/disciplinas/QS/2022-2023/1-semestre)
 
-<h2 style="margin-left:40px">Spring Semester 2022/23</h2>
+## Spring Semester 2022/23
 
-<ul>
-    <li style="margin-left: 80px;"><span style="font-size:20px">Distributed Systems</span></li>
-</ul>
+- [Distributed Systems](https://fenix.tecnico.ulisboa.pt/disciplinas/SDis/2022-2023/2-semestre)
 
-<h2 style="margin-left:40px">Fall Semester 2022/23</h2>
+## Fall Semester 2022/23
 
-<ul>
-    <li style="margin-left: 80px;"><span style="font-size:20px">Forensics Cyber-Security</span> </li>
-    <li style="margin-left: 80px;"><span style="font-size:20px">Operating Systems</span> </li>
-</ul>
+- [Forensics Cyber-Security](https://fenix.tecnico.ulisboa.pt/disciplinas/CSF2/2022-2023/1-semestre)
+- [Operating Systems](https://fenix.tecnico.ulisboa.pt/disciplinas/SO/2022-2023/1-semestre)
