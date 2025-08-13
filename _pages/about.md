@@ -3,7 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: PhD Student at Instituto Superior Técnico<br>
-  Researcher at INESC-ID
+  Researcher at INESC-ID<br>
+  <a href="/assets/pdf/cv.pdf">CV</a>
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
@@ -13,7 +14,6 @@ profile:
   more_info: >
     <p><a href="https://tecnico.ulisboa.pt/en">IST</a> & <a href="https://www.inesc-id.pt">INESC-ID</a></p>
     <p>Lisbon, Portugal</p>
-    <p><a href="/assets/pdf/cv.pdf">CV</a></p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
