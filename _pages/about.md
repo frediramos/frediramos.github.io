@@ -20,8 +20,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Greetings, my name is Frederico Ramos and I am a PhD student in computer science at <a href="https://tecnico.ulisboa.pt/en">Instituto Superior Técnico (IST)</a> under the supervision of Prof. <a href="https://web.ist.utl.pt/jose.fragoso">José Fragoso Santos</a> and Prof. <a href="https://www.math.tecnico.ulisboa.pt/~padao/">Pedro Adão</a>. I am currently working on the synthesis of tool-independent summaries for symbolic execution. My main research interests are cybersecurity, formal methods and programming languages.
+Welcome. My name is Frederico Ramos, and I am a PhD student in Computer Science at  
+<a href="https://tecnico.ulisboa.pt/en">Instituto Superior Técnico (IST)</a>,  
+supervised by Prof. <a href="https://web.ist.utl.pt/jose.fragoso">José Fragoso Santos</a> and  
+Prof. <a href="https://www.math.tecnico.ulisboa.pt/~padao/">Pedro Adão</a>.  
+I also work as a researcher in the  
+<a href="https://www.inesc-id.pt/research-areas/automated-reasoning-and-software-reliability/">ARSR Group</a> at INESC-ID.
 
-I am also a junior researcher at <a href="https://www.inesc-id.pt">INESC-ID</a>, studying the application of software verification tools to student's code as part of their learning process in undergraduate courses.
+My research focuses on optimizing symbolic execution through techniques such as summary synthesis, specialized memory models for JavaScript, and methods to improve scalability and performance.
 
-In December 2021 I completed my MSc in Computer Science and Engineering at IST. My dissertation, entitled <i><a href="https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710">Toward Tool-Independent Summaries for Symbolic Execution</a></i>, was supervised by Prof. <a href="https://web.ist.utl.pt/jose.fragoso">José Fragoso Santos</a> and Prof. <a href="https://www.math.tecnico.ulisboa.pt/~padao/">Pedro Adão</a>.
+I am broadly interested in cybersecurity, formal methods, and programming languages.
+
+In December 2021, I completed my MSc in Computer Science and Engineering at IST.  
+My dissertation titled <i><a href="https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710">Toward Tool-Independent Summaries for Symbolic Execution</a></i> laid the groundwork for my current research.
