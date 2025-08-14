@@ -1,11 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching Assistant - IST
+title: Teaching Assistant
 description:
 nav: true
 nav_order: 6
 ---
+
+# [IST](https://tecnico.ulisboa.pt/en)
 
 ## Fall Semester 2024/25
 
