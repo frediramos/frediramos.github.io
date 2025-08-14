@@ -27,9 +27,9 @@ Prof. <a href="https://www.math.tecnico.ulisboa.pt/~padao/">Pedro Adão</a>.
 I also work as a researcher in the  
 <a href="https://www.inesc-id.pt/research-areas/automated-reasoning-and-software-reliability/">ARSR Group</a> at INESC-ID.
 
-My research focuses on optimizing symbolic execution through techniques such as summary synthesis, specialized memory models for JavaScript, and methods to improve scalability and performance.
+My research focuses on optimizing symbolic execution through techniques such as symbolic summaries, memory models, and path merging, with a current emphasis on C and JavaScript. These approaches aim to make analyses more scalable and precise.
 
-I am broadly interested in cybersecurity, formal methods, and programming languages.
+I am broadly interested in formal methods, and programming languages, exploring how these areas intersect to improve software reliability and security.
 
 In December 2021, I completed my MSc in Computer Science and Engineering at IST.  
 My dissertation titled <i><a href="https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922710">Toward Tool-Independent Summaries for Symbolic Execution</a></i> laid the groundwork for my current research.
