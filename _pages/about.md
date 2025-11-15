@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: PhD Student at Instituto Superior Técnico<br>
   Researcher at INESC-ID<br>
-  <a href="/assets/pdf/cv.pdf">CV</a>
+  <a href="/assets/pdf/cv.pdf"><b>CV</b></a>
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
