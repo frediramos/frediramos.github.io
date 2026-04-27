@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: TA
-description:
+description: Teaching Assistant
 nav: true
 nav_order: 6
 ---
