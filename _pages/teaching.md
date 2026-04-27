@@ -1,13 +1,17 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching Assistant
+title: TA
 description:
 nav: true
 nav_order: 6
 ---
 
 # [IST](https://tecnico.ulisboa.pt/en)
+
+## Fall Semester 2025/26
+
+- [Software Engineering](https://fenix.tecnico.ulisboa.pt/disciplinas/ESof23610/2025-2026/2-semestre)
 
 ## Fall Semester 2024/25
 
